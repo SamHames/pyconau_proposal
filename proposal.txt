@@ -1,0 +1,86 @@
+You will be able to modify your proposal as many times as you need, up until the call for proposals closes.
+
+
+#Title
+
+A practical introduction to machine learning.
+
+#Type
+
+Tutorial - 90 minutes
+
+
+# Public Abstract
+
+Machine learning is a hot topic, with lots of hype and hysteria about what it can and might do. Unfortunately it's still a relatively recent escape from academia, so getting a pragmatic view of how machine learning can be used, or where to start can be challenging.
+
+This tutorial will provide a high level introduction to machine learning: what it is, what kind of problems we can solve with it, and how can we apply it. In doing so this tutorial will also introduce the scikit-learn library and show you why this library is a central part of the machine learning ecosystem in Python.
+
+Assumed background: This tutorial only assumes that you are familiar with writing Python, at least up to the level of understanding objects. We will *not* assume that you have any maths background, or that you are familiar with numerical computing. That is to say, maths will be strictly limited to handwaving.
+
+
+# Private Abstract
+
+    This will only be shown to organisers and reviewers. You should provide any details about your proposal that you don't want to be public here.
+
+    Please fill out an approximate timeline for the content of your presentation to help the programme committee understand the details of your proposal. You are welcome to use a non-standard talk structure instead, however many authors will find this basic template helpful:
+
+
+## Timeline
+
+00 - 05 minutes: setup
+05 - 20 minutes: introduction to machine learning
+                 introducing the workshop dataset
+20 - 30 minutes: choosing features to represent your dataset
+30 - 40 minutes: the scikit-learn estimator interface for training classifiers
+                 choosing classifier parameters
+40 - 60 minutes: validating the performance of your model
+60 - 80 minutes: end to end machine learning with pipelines
+80 - 90 minutes: wrap up and question time
+
+
+## Assumed audience background
+
+This talk is aimed at developers with no numerical experience who are interested in getting started with machine learning. We will start from scratch with a small sample dataset, and walk through the process of building a classifier with scikit-learn. The focus will be on hands on instruction, with the idea that the audience works through the examples and exercises with us.
+
+The focus will be on interactive coverage of a small number of topics, rather than a lightning style demo of a many different libraries and techniques.
+
+
+## Tutorial Background
+
+This tutorial is a combined effort between the three of us. It combines the material from Jack Simpson's tutorial (and feedback from) at ResBaz (Feb 2016), with the feedback from a workshop Sam Hames gave at the Brisbane Python meetup. The source material for the teaching content is open licenced (repository available here: []) and the long term intent is to integrate this material as a Data Carpentry module.
+
+
+## Differences from other tutorials
+
+Many other tutorials have been run for recent conferences [], and no doubt many more are being proposed for this conference. While these talks cover a lot of interesting material and a wide variety of topic, they often depart Learning from the experience of these talks, and our extensive experience running Software Carpentry workshops for novice programmers, we have structured this lesson to focus
+
+
+
+
+
+## Speaker background and experience
+
+About Jack
+
+About Alistair
+
+
+# Technical Requirements
+- Lapel Microphones
+
+
+# Target audience
+Developer
+
+
+# Event Targets
+
+Main Conference
+Science and Data Miniconference
+
+
+# Project
+scikit-learn
+Project URL (Optional)
+![](http://scikit-learn.org/)
