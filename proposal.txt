@@ -19,7 +19,7 @@ This tutorial will provide a high level introduction to machine learning: what i
 
 We will start from scratch with a small example dataset, and walk through the process of building and carefully validating a classifier with scikit-learn. The practical focus during the tutorial will be on hands on implementation and experimentation. The technical focus will be on machine learning algorithms as black boxes for making decisions.
 
-Assumed background: This tutorial only assumes that you are familiar with Python the language, at least up to the level of understanding objects. We will *not* assume that you have any maths background, or that you are familiar with numerical computing: discussion of maths and algorithms will be strictly limited to vague hand waving.
+Assumed background: This tutorial only assumes that you are comfortable with Python the language. We will *not* assume that you have any maths background, or that you are familiar with numerical computing: discussion of maths and algorithms will be strictly limited to vague hand waving.
 
 
 # Private Abstract
@@ -42,9 +42,6 @@ Assumed background: This tutorial only assumes that you are familiar with Python
 80 - 90 minutes: Wrap up and question time.
 
 
-## Assumed audience background
-
-
 ## Tutorial Background
 
 This tutorial is a combined effort between the three of us. It combines the dataset and general structure from Jack Simpson's tutorial at ResBaz in February 2016 [1], with the more in depth coverage of the scikit-learn api from a workshop Sam Hames gave at the Brisbane Python meetup [2]. The source material for the teaching content is open licensed and publicly available [3]. The long term plan is to develop this material into a Data Carpentry module.
@@ -56,14 +53,16 @@ This tutorial is a combined effort between the three of us. It combines the data
 
 ## Differences from other tutorials
 
-Many other tutorials have been run for recent conferences [], and no doubt many more are being proposed for this conference. While these talks cover a lot of interesting material and a wide variety of topic, they often depart Learning from the experience of these talks, and our extensive experience running Software Carpentry workshops for novice programmers, we have structured this lesson to focus. Other tutorials focusing on machine learning, data sciences or data analysis have in the past taken ... For example in Applied Data Science by Tennessee Leeuwenburg covers: random forest, neural networks, deep learning, switches between high level and low level details. It works as a high level lightning overview of a broad field, *for someone who already has some experience*, but doesn't really provide an accessible introduction for a novice.
+No doubt other tutorials are being proposed for this conference. Why do we think this tutorial is of particular benefit to the broader Python community? The difference for this tutorial is that we are explicitly targeting this tutorial as an introduction to the field, rather than at an advanced or even intermediate level as many other tutorials tend to focus on.
 
-The focus will be on interactive coverage of a small number of core machine learning topics, rather than a lightning style demo of a many different libraries and techniques.
+For example at the 2015 PyCon-AU Tennessee Leeuwenburg's "Applied Data Science" tutorial covered: random forests, neural networks, deep learning. Along the way it covered high level interfaces, low level algorithmic details and specific api details. It provides an effective high level technical overview of a broad field, for someone who already has some experience, but isn't focused enough to be fully accessible for someone with no experience in this field.
+
+Learning from the experience and positioning of these previous talks, and our extensive experience running Software Carpentry workshops for novice programmers, we have structured this tutorial to focus on interactive coverage of a small number of core machine learning topics, rather than a lightning style demo of a many different libraries and techniques.
 
 
 ## Why three speakers?
 
-Running a tutorial is a lot of work for a single person: having three people in the room working on the tutorial makes everything run smoothly. We don't have to choose between presenting material to everyone and helping out the  person who just can't quite get the package installed correctly.
+One of our key experiences as Software Carpentry instructors is that running a tutorial is a lot of work for a single person: having three people in the room working on the tutorial makes everything run smoothly. We don't have to choose between presenting material to everyone and helping out the person who just can't quite get the package installed correctly.
 
 
 ## Speaker background and experience
@@ -75,7 +74,7 @@ About Alistair
 
 # Technical Requirements
 
-- Lapel Microphones: preferably one for each speaker.
+Lapel Microphones: preferably one for each of us.
 
 
 # Target audience
@@ -86,6 +85,7 @@ Developer
 # Event Targets
 
 Main Conference
+
 Science and Data Miniconference
 
 
