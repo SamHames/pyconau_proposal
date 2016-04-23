@@ -1,22 +1,25 @@
 You will be able to modify your proposal as many times as you need, up until the call for proposals closes.
 
 
-#Title
+# Title
 
-A practical introduction to machine learning.
+A Practical Introduction To Machine Learning.
 
-#Type
+
+# Type
 
 Tutorial - 90 minutes
 
 
 # Public Abstract
 
-Machine learning is a hot topic, with lots of hype and hysteria about what it can and might do. Unfortunately it's still a relatively recent escape from academia, so getting a pragmatic view of how machine learning can be used, or where to start can be challenging.
+Machine learning is a hot topic, with lots of hype about what it can and might do. Given the broad landscape of machine learning, and the continuing proliferation of new tools and techniques it can be difficult to get a pragmatic view of how machine learning can be used, or even where to start.
 
 This tutorial will provide a high level introduction to machine learning: what it is, what kind of problems we can solve with it, and how can we apply it. In doing so this tutorial will also introduce the scikit-learn library and show you why this library is a central part of the machine learning ecosystem in Python.
 
-Assumed background: This tutorial only assumes that you are familiar with writing Python, at least up to the level of understanding objects. We will *not* assume that you have any maths background, or that you are familiar with numerical computing. That is to say, maths will be strictly limited to handwaving.
+We will start from scratch with a small example dataset, and walk through the process of building and carefully validating a classifier with scikit-learn. The practical focus during the tutorial will be on hands on implementation and experimentation. The technical focus will be on machine learning algorithms as black boxes for making decisions.
+
+Assumed background: This tutorial only assumes that you are familiar with Python the language, at least up to the level of understanding objects. We will *not* assume that you have any maths background, or that you are familiar with numerical computing: discussion of maths and algorithms will be strictly limited to vague hand waving.
 
 
 # Private Abstract
@@ -28,35 +31,39 @@ Assumed background: This tutorial only assumes that you are familiar with writin
 
 ## Timeline
 
-00 - 05 minutes: setup
-05 - 20 minutes: introduction to machine learning
-                 introducing the workshop dataset
-20 - 30 minutes: choosing features to represent your dataset
-30 - 40 minutes: the scikit-learn estimator interface for training classifiers
-                 choosing classifier parameters
-40 - 60 minutes: validating the performance of your model
-60 - 80 minutes: end to end machine learning with pipelines
-80 - 90 minutes: wrap up and question time
+00 - 05 minutes: Setup.
+05 - 20 minutes: Introduction to machine learning.
+                 Introducing the workshop dataset.
+20 - 30 minutes: Choosing features to represent your dataset.
+30 - 40 minutes: The scikit-learn estimator interface for training classifiers.
+                 Choosing classifier parameters.
+40 - 60 minutes: Validating the performance of your model.
+60 - 80 minutes: End to end machine learning with pipelines.
+80 - 90 minutes: Wrap up and question time.
 
 
 ## Assumed audience background
 
-This talk is aimed at developers with no numerical experience who are interested in getting started with machine learning. We will start from scratch with a small sample dataset, and walk through the process of building a classifier with scikit-learn. The focus will be on hands on instruction, with the idea that the audience works through the examples and exercises with us.
-
-The focus will be on interactive coverage of a small number of topics, rather than a lightning style demo of a many different libraries and techniques.
-
 
 ## Tutorial Background
 
-This tutorial is a combined effort between the three of us. It combines the material from Jack Simpson's tutorial (and feedback from) at ResBaz (Feb 2016), with the feedback from a workshop Sam Hames gave at the Brisbane Python meetup. The source material for the teaching content is open licenced (repository available here: []) and the long term intent is to integrate this material as a Data Carpentry module.
+This tutorial is a combined effort between the three of us. It combines the dataset and general structure from Jack Simpson's tutorial at ResBaz in February 2016 [1], with the more in depth coverage of the scikit-learn api from a workshop Sam Hames gave at the Brisbane Python meetup [2]. The source material for the teaching content is open licensed and publicly available [3]. The long term plan is to develop this material into a Data Carpentry module.
+
+[1] https://feb2016.resbaz.com/melbourne
+[2] http://www.meetup.com/Brisbane-Python-User-Group/events/229060347/
+[3] https://github.com/alistairwalsh/MLD
 
 
 ## Differences from other tutorials
 
-Many other tutorials have been run for recent conferences [], and no doubt many more are being proposed for this conference. While these talks cover a lot of interesting material and a wide variety of topic, they often depart Learning from the experience of these talks, and our extensive experience running Software Carpentry workshops for novice programmers, we have structured this lesson to focus
+Many other tutorials have been run for recent conferences [], and no doubt many more are being proposed for this conference. While these talks cover a lot of interesting material and a wide variety of topic, they often depart Learning from the experience of these talks, and our extensive experience running Software Carpentry workshops for novice programmers, we have structured this lesson to focus. Other tutorials focusing on machine learning, data sciences or data analysis have in the past taken ... For example in Applied Data Science by Tennessee Leeuwenburg covers: random forest, neural networks, deep learning, switches between high level and low level details. It works as a high level lightning overview of a broad field, *for someone who already has some experience*, but doesn't really provide an accessible introduction for a novice.
+
+The focus will be on interactive coverage of a small number of core machine learning topics, rather than a lightning style demo of a many different libraries and techniques.
 
 
+## Why three speakers?
 
+Running a tutorial is a lot of work for a single person: having three people in the room working on the tutorial makes everything run smoothly. We don't have to choose between presenting material to everyone and helping out the  person who just can't quite get the package installed correctly.
 
 
 ## Speaker background and experience
@@ -67,10 +74,12 @@ About Alistair
 
 
 # Technical Requirements
-- Lapel Microphones
+
+- Lapel Microphones: preferably one for each speaker.
 
 
 # Target audience
+
 Developer
 
 
@@ -81,6 +90,9 @@ Science and Data Miniconference
 
 
 # Project
+
 scikit-learn
-Project URL (Optional)
-![](http://scikit-learn.org/)
+
+# Project URL (Optional)
+
+http://scikit-learn.org/
