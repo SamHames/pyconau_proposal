@@ -71,6 +71,9 @@ About Jack
 
 About Alistair
 
+Alistair Walsh is a cognitive neuroscientist currently working at The University of Melbourne, Research Platforms department as a Community Manager. He teaches Python, machine learning and text and image processing to researchers who aren't from a computer science background but need to use programming tools in their research. 
+Alistair is also an instructor trainer for Software Carpentry and has run Software Carpentry programming workshops in Melbourne, Sydney and Adelaide.
+
 
 # Technical Requirements
 
